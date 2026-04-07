@@ -10,7 +10,7 @@ namespace COMP003B.LectureActivity3.Controllers
     {
         [HttpGet("create")]
 
-        public IActionResult Index()
+        public IActionResult Create()
         {
             return View();
         }

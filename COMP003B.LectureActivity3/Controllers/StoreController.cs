@@ -8,7 +8,7 @@ namespace COMP003B.LectureActivity3.Controllers
     {
         [Route("product/{id:int}")]
 
-        public IActionResult VCiewProduct(int id)
+        public IActionResult ViewProduct(int id)
         {
             
             return View(id);
